@@ -16,12 +16,6 @@ st.write('This page contains  data from an SQL database that was used in this pr
 #load data from SQL database
 telco_churn_first_3000= pd.read_csv("Datasets/Telco-churn-first-3000")
 
-
-
-
-
-
-
 def display_section(section): 
     if section == "Categorical":
         st.write("Categorical Section:")

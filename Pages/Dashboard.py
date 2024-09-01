@@ -8,7 +8,6 @@ st.set_page_config(
     page_icon='',
     layout='wide'
 )
-
 st.title('Dashboard')
 st.markdown('This page provides insights on the factors that may lead to customer churn')
 
